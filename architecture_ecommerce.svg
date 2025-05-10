@@ -1,0 +1,166 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1000" height="800" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">Architecture Technique - Plateforme E-commerce Multivendeur</text>
+  
+  <!-- Cloud Environment -->
+  <rect x="50" y="70" width="900" height="700" rx="20" ry="20" fill="#e9f7ff" stroke="#0078d7" stroke-width="2" stroke-dasharray="5,5" />
+  <text x="100" y="100" font-family="Arial" font-size="18" font-weight="bold" fill="#0078d7">Infrastructure Cloud (AWS)</text>
+  
+  <!-- Client Layer -->
+  <rect x="150" y="120" width="700" height="80" rx="10" ry="10" fill="#d1e7dd" stroke="#198754" stroke-width="2" />
+  <text x="500" y="145" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Couche Client</text>
+  
+  <!-- Client Icons -->
+  <rect x="200" y="155" width="100" height="30" rx="5" ry="5" fill="white" stroke="#198754" />
+  <text x="250" y="175" font-family="Arial" font-size="12" text-anchor="middle">PWA React.js</text>
+  
+  <rect x="350" y="155" width="100" height="30" rx="5" ry="5" fill="white" stroke="#198754" />
+  <text x="400" y="175" font-family="Arial" font-size="12" text-anchor="middle">App React Native</text>
+  
+  <rect x="500" y="155" width="100" height="30" rx="5" ry="5" fill="white" stroke="#198754" />
+  <text x="550" y="175" font-family="Arial" font-size="12" text-anchor="middle">Portail Vendeur</text>
+  
+  <rect x="650" y="155" width="100" height="30" rx="5" ry="5" fill="white" stroke="#198754" />
+  <text x="700" y="175" font-family="Arial" font-size="12" text-anchor="middle">Admin Dashboard</text>
+  
+  <!-- CDN -->
+  <rect x="150" y="210" width="150" height="40" rx="5" ry="5" fill="#f8d7da" stroke="#dc3545" stroke-width="2" />
+  <text x="225" y="235" font-family="Arial" font-size="14" text-anchor="middle">CDN (CloudFront)</text>
+  
+  <!-- API Gateway -->
+  <rect x="350" y="210" width="300" height="50" rx="10" ry="10" fill="#cfe2ff" stroke="#0d6efd" stroke-width="2" />
+  <text x="500" y="240" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">API Gateway + Auth0/Cognito</text>
+  
+  <!-- Load Balancer -->
+  <rect x="700" y="210" width="150" height="40" rx="5" ry="5" fill="#f8d7da" stroke="#dc3545" stroke-width="2" />
+  <text x="775" y="235" font-family="Arial" font-size="14" text-anchor="middle">Load Balancer</text>
+  
+  <!-- Microservices Layer -->
+  <rect x="100" y="280" width="800" height="250" rx="10" ry="10" fill="#fff3cd" stroke="#ffc107" stroke-width="2" />
+  <text x="500" y="305" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Couche Microservices (Conteneurs Docker / EKS)</text>
+  
+  <!-- Microservices -->
+  <rect x="130" y="320" width="120" height="60" rx="5" ry="5" fill="white" stroke="#fd7e14" stroke-width="2" />
+  <text x="190" y="345" font-family="Arial" font-size="12" text-anchor="middle">Service Utilisateurs</text>
+  <text x="190" y="365" font-family="Arial" font-size="10" text-anchor="middle">Node.js / Express</text>
+  
+  <rect x="270" y="320" width="120" height="60" rx="5" ry="5" fill="white" stroke="#fd7e14" stroke-width="2" />
+  <text x="330" y="345" font-family="Arial" font-size="12" text-anchor="middle">Service Catalogue</text>
+  <text x="330" y="365" font-family="Arial" font-size="10" text-anchor="middle">Node.js / GraphQL</text>
+  
+  <rect x="410" y="320" width="120" height="60" rx="5" ry="5" fill="white" stroke="#fd7e14" stroke-width="2" />
+  <text x="470" y="345" font-family="Arial" font-size="12" text-anchor="middle">Service Inventaire</text>
+  <text x="470" y="365" font-family="Arial" font-size="10" text-anchor="middle">Go</text>
+  
+  <rect x="550" y="320" width="120" height="60" rx="5" ry="5" fill="white" stroke="#fd7e14" stroke-width="2" />
+  <text x="610" y="345" font-family="Arial" font-size="12" text-anchor="middle">Service Commandes</text>
+  <text x="610" y="365" font-family="Arial" font-size="10" text-anchor="middle">Java Spring Boot</text>
+  
+  <rect x="690" y="320" width="120" height="60" rx="5" ry="5" fill="white" stroke="#fd7e14" stroke-width="2" />
+  <text x="750" y="345" font-family="Arial" font-size="12" text-anchor="middle">Service Paiements</text>
+  <text x="750" y="365" font-family="Arial" font-size="10" text-anchor="middle">Node.js</text>
+  
+  <rect x="130" y="400" width="120" height="60" rx="5" ry="5" fill="white" stroke="#fd7e14" stroke-width="2" />
+  <text x="190" y="425" font-family="Arial" font-size="12" text-anchor="middle">Service Recherche</text>
+  <text x="190" y="445" font-family="Arial" font-size="10" text-anchor="middle">Python / FastAPI</text>
+  
+  <rect x="270" y="400" width="120" height="60" rx="5" ry="5" fill="white" stroke="#fd7e14" stroke-width="2" />
+  <text x="330" y="425" font-family="Arial" font-size="12" text-anchor="middle">Service Notifications</text>
+  <text x="330" y="445" font-family="Arial" font-size="10" text-anchor="middle">Node.js</text>
+  
+  <rect x="410" y="400" width="120" height="60" rx="5" ry="5" fill="white" stroke="#fd7e14" stroke-width="2" />
+  <text x="470" y="425" font-family="Arial" font-size="12" text-anchor="middle">Service Analytique</text>
+  <text x="470" y="445" font-family="Arial" font-size="10" text-anchor="middle">Python</text>
+  
+  <rect x="550" y="400" width="120" height="60" rx="5" ry="5" fill="white" stroke="#fd7e14" stroke-width="2" />
+  <text x="610" y="425" font-family="Arial" font-size="12" text-anchor="middle">Gestion Vendeurs</text>
+  <text x="610" y="445" font-family="Arial" font-size="10" text-anchor="middle">Node.js</text>
+  
+  <rect x="690" y="400" width="120" height="60" rx="5" ry="5" fill="white" stroke="#fd7e14" stroke-width="2" />
+  <text x="750" y="425" font-family="Arial" font-size="12" text-anchor="middle">Service Avis</text>
+  <text x="750" y="445" font-family="Arial" font-size="10" text-anchor="middle">Node.js</text>
+  
+  <!-- Serverless Functions -->
+  <rect x="830" y="350" width="60" height="60" rx="5" ry="5" fill="#e9ecef" stroke="#343a40" stroke-width="2" />
+  <text x="860" y="375" font-family="Arial" font-size="10" text-anchor="middle" font-weight="bold">AWS</text>
+  <text x="860" y="390" font-family="Arial" font-size="10" text-anchor="middle" font-weight="bold">Lambda</text>
+  
+  <!-- Message Bus -->
+  <rect x="150" y="480" width="700" height="40" rx="5" ry="5" fill="#e9ecef" stroke="#6c757d" stroke-width="2" />
+  <text x="500" y="505" font-family="Arial" font-size="16" text-anchor="middle">Système de Messagerie (Kafka / SQS / RabbitMQ)</text>
+  
+  <!-- Data Layer -->
+  <rect x="100" y="540" width="800" height="200" rx="10" ry="10" fill="#f1deff" stroke="#6f42c1" stroke-width="2" />
+  <text x="500" y="565" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Couche Données</text>
+  
+  <!-- Databases -->
+  <rect x="130" y="590" width="140" height="60" rx="5" ry="5" fill="white" stroke="#6f42c1" stroke-width="2" />
+  <text x="200" y="615" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">DB Utilisateurs</text>
+  <text x="200" y="635" font-family="Arial" font-size="10" text-anchor="middle">PostgreSQL (RDS)</text>
+  
+  <rect x="290" y="590" width="140" height="60" rx="5" ry="5" fill="white" stroke="#6f42c1" stroke-width="2" />
+  <text x="360" y="615" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">DB Catalogue</text>
+  <text x="360" y="635" font-family="Arial" font-size="10" text-anchor="middle">MongoDB (DocumentDB)</text>
+  
+  <rect x="450" y="590" width="140" height="60" rx="5" ry="5" fill="white" stroke="#6f42c1" stroke-width="2" />
+  <text x="520" y="615" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">DB Commandes</text>
+  <text x="520" y="635" font-family="Arial" font-size="10" text-anchor="middle">PostgreSQL (RDS)</text>
+  
+  <rect x="610" y="590" width="140" height="60" rx="5" ry="5" fill="white" stroke="#6f42c1" stroke-width="2" />
+  <text x="680" y="615" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">Index Recherche</text>
+  <text x="680" y="635" font-family="Arial" font-size="10" text-anchor="middle">Elasticsearch</text>
+  
+  <rect x="130" y="660" width="140" height="60" rx="5" ry="5" fill="white" stroke="#6f42c1" stroke-width="2" />
+  <text x="200" y="685" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">Cache</text>
+  <text x="200" y="705" font-family="Arial" font-size="10" text-anchor="middle">Redis (ElastiCache)</text>
+  
+  <rect x="290" y="660" width="140" height="60" rx="5" ry="5" fill="white" stroke="#6f42c1" stroke-width="2" />
+  <text x="360" y="685" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">Data Warehouse</text>
+  <text x="360" y="705" font-family="Arial" font-size="10" text-anchor="middle">Amazon Redshift</text>
+  
+  <rect x="450" y="660" width="140" height="60" rx="5" ry="5" fill="white" stroke="#6f42c1" stroke-width="2" />
+  <text x="520" y="685" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">Stockage Média</text>
+  <text x="520" y="705" font-family="Arial" font-size="10" text-anchor="middle">S3</text>
+  
+  <rect x="610" y="660" width="140" height="60" rx="5" ry="5" fill="white" stroke="#6f42c1" stroke-width="2" />
+  <text x="680" y="685" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">Monitoring</text>
+  <text x="680" y="705" font-family="Arial" font-size="10" text-anchor="middle">ELK Stack / Prometheus</text>
+  
+  <!-- Security & Monitoring -->
+  <rect x="770" y="590" width="100" height="130" rx="5" ry="5" fill="#ffe3e3" stroke="#dc3545" stroke-width="2" />
+  <text x="820" y="615" font-family="Arial" font-size="12" text-anchor="middle" font-weight="bold">Sécurité</text>
+  <text x="820" y="635" font-family="Arial" font-size="10" text-anchor="middle">WAF</text>
+  <text x="820" y="655" font-family="Arial" font-size="10" text-anchor="middle">Shield (DDoS)</text>
+  <text x="820" y="675" font-family="Arial" font-size="10" text-anchor="middle">Secrets Manager</text>
+  <text x="820" y="695" font-family="Arial" font-size="10" text-anchor="middle">CloudTrail</text>
+  
+  <!-- Connection Lines -->
+  <!-- Client to API Gateway -->
+  <line x1="500" y1="200" x2="500" y2="210" stroke="#0d6efd" stroke-width="2"/>
+  
+  <!-- API Gateway to Microservices -->
+  <line x1="500" y1="260" x2="500" y2="280" stroke="#ffc107" stroke-width="2"/>
+  
+  <!-- Microservices to Message Bus -->
+  <line x1="500" y1="460" x2="500" y2="480" stroke="#6c757d" stroke-width="2"/>
+  
+  <!-- Message Bus to Data Layer -->
+  <line x1="500" y1="520" x2="500" y2="540" stroke="#6f42c1" stroke-width="2"/>
+  
+  <!-- CI/CD Pipeline -->
+  <rect x="770" y="480" width="100" height="40" rx="5" ry="5" fill="#d0d0ff" stroke="#0000cc" stroke-width="2" />
+  <text x="820" y="505" font-family="Arial" font-size="12" text-anchor="middle">CI/CD Pipeline</text>
+  
+  <!-- Legend -->
+  <rect x="800" y="680" width="80" height="20" fill="#d1e7dd" stroke="#198754" stroke-width="1" />
+  <text x="890" y="695" font-family="Arial" font-size="12">Couche Client</text>
+  
+  <rect x="800" y="705" width="80" height="20" fill="#fff3cd" stroke="#ffc107" stroke-width="1" />
+  <text x="890" y="720" font-family="Arial" font-size="12">Couche Services</text>
+  
+  <rect x="800" y="730" width="80" height="20" fill="#f1deff" stroke="#6f42c1" stroke-width="1" />
+  <text x="890" y="745" font-family="Arial" font-size="12">Couche Données</text>
+</svg>
